@@ -25,3 +25,12 @@
 .tohc-badge-circle {
   @apply text-xs text-center rounded-full px-1.5;
 }
+.tohc-sudheadline{
+  @apply flex justify-center items-center mb-24;
+}
+.tohc-sudheadline-deco-line{
+  @apply w-8 h-px bg-gray-200;
+}
+.tohc-sudheadline-label{
+  @apply uppercase mx-4 tracking-widest text-gray-500 font-medium text-[13px];
+}

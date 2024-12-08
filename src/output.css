@@ -881,6 +881,31 @@ video {
   line-height: 1rem;
 }
 
+.tohc-sudheadline{
+  margin-bottom: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tohc-sudheadline-deco-line{
+  height: 1px;
+  width: 2rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 231 235 / var(--tw-bg-opacity, 1));
+}
+
+.tohc-sudheadline-label{
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-text-opacity, 1));
+}
+
 .after\:absolute::after{
   content: var(--tw-content);
   position: absolute;

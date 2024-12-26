@@ -766,20 +766,20 @@ video {
   justify-content: space-between;
 }
 
-.gap-5{
-  gap: 1.25rem;
-}
-
-.gap-8{
-  gap: 2rem;
+.gap-3{
+  gap: 0.75rem;
 }
 
 .gap-4{
   gap: 1rem;
 }
 
-.gap-3{
-  gap: 0.75rem;
+.gap-5{
+  gap: 1.25rem;
+}
+
+.gap-8{
+  gap: 2rem;
 }
 
 .bg-gray-900{
@@ -892,10 +892,6 @@ video {
 .py-32{
   padding-top: 8rem;
   padding-bottom: 8rem;
-}
-
-.pl-10{
-  padding-left: 2.5rem;
 }
 
 .pl-0{
@@ -1356,31 +1352,11 @@ video {
     margin-bottom: 1.25rem;
   }
 
-  .xs\:mb-0{
-    margin-bottom: 0px;
-  }
-
   .xs\:h-\[200px\]{
     height: 200px;
   }
 
-  .xs\:h-\[190px\]{
-    height: 190px;
-  }
-
-  .xs\:h-\[2000px\]{
-    height: 2000px;
-  }
-
   .xs\:gap-5{
     gap: 1.25rem;
-  }
-
-  .xs\:pl-10{
-    padding-left: 2.5rem;
-  }
-
-  .xs\:pl-14{
-    padding-left: 3.5rem;
   }
 }

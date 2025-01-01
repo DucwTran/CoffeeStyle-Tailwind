@@ -556,10 +556,6 @@ video {
   display: none;
 }
 
-.fixed{
-  position: fixed;
-}
-
 .absolute{
   position: absolute;
 }
@@ -576,28 +572,16 @@ video {
   left: 50%;
 }
 
+.left-\[calc\(-50vw\+50\%\)\]{
+  left: calc(-50vw + 50%);
+}
+
 .right-3{
   right: 0.75rem;
 }
 
 .top-3{
   top: 0.75rem;
-}
-
-.left-\[calc\(\)\]{
-  left: calc();
-}
-
-.left-\[calc\(-50vw\)\]{
-  left: calc(-50vw);
-}
-
-.left-\[calc\(-50vw-50\%\)\]{
-  left: calc(-50vw - 50%);
-}
-
-.left-\[calc\(-50vw\+50\%\)\]{
-  left: calc(-50vw + 50%);
 }
 
 .mx-16{
@@ -618,6 +602,16 @@ video {
 .my-8{
   margin-top: 2rem;
   margin-bottom: 2rem;
+}
+
+.my-6{
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.my-7{
+  margin-top: 1.75rem;
+  margin-bottom: 1.75rem;
 }
 
 .mb-10{
@@ -680,6 +674,10 @@ video {
   height: 280px;
 }
 
+.h-\[300px\]{
+  height: 300px;
+}
+
 .h-\[380px\]{
   height: 380px;
 }
@@ -696,16 +694,16 @@ video {
   height: 100%;
 }
 
-.h-\[340px\]{
-  height: 340px;
-}
-
 .w-11\/12{
   width: 91.666667%;
 }
 
 .w-\[100px\]{
   width: 100px;
+}
+
+.w-\[100vw\]{
+  width: 100vw;
 }
 
 .w-\[95\%\]{
@@ -719,14 +717,6 @@ video {
 .w-max{
   width: -moz-max-content;
   width: max-content;
-}
-
-.w-\[100\]{
-  width: 100;
-}
-
-.w-\[100vw\]{
-  width: 100vw;
 }
 
 .max-w-screen-2xl{
@@ -853,12 +843,20 @@ video {
   background-image: url('https://assets.website-files.com/5be96251aaba7a7b19ecdf69/5be96251aaba7aa6d0ecdfa7_Image%202.jpg');
 }
 
+.bg-\[url\(\'https\:\/\/assets\.website-files\.com\/5be96251aaba7a7b19ecdf69\/5be96251aaba7ac1c6ecdfd2_Section\%20Image\%202\.jpg\'\)\]{
+  background-image: url('https://assets.website-files.com/5be96251aaba7a7b19ecdf69/5be96251aaba7ac1c6ecdfd2_Section%20Image%202.jpg');
+}
+
 .bg-\[url\(\'https\:\/\/cdn\.prod\.website-files\.com\/5be96251aaba7a84f6ecdf81\/5be96251aaba7a0c09ece01c_steve-harvey-523112-unsplash\.jpg\'\)\]{
   background-image: url('https://cdn.prod.website-files.com/5be96251aaba7a84f6ecdf81/5be96251aaba7a0c09ece01c_steve-harvey-523112-unsplash.jpg');
 }
 
 .bg-\[url\(\'https\:\/\/cdn\.prod\.website-files\.com\/5be96251aaba7a84f6ecdf81\/5be96251aaba7a223decdff8_ronaldo-arthur-vidal-66241-unsplash\.jpg\'\)\]{
   background-image: url('https://cdn.prod.website-files.com/5be96251aaba7a84f6ecdf81/5be96251aaba7a223decdff8_ronaldo-arthur-vidal-66241-unsplash.jpg');
+}
+
+.bg-\[url\(\'https\:\/\/cdn\.prod\.website-files\.com\/5be96251aaba7a84f6ecdf81\/5be96251aaba7a4ce6ece036_bar-cafe-caffeine-1002740\.jpg\'\)\]{
+  background-image: url('https://cdn.prod.website-files.com/5be96251aaba7a84f6ecdf81/5be96251aaba7a4ce6ece036_bar-cafe-caffeine-1002740.jpg');
 }
 
 .bg-\[url\(\'https\:\/\/cdn\.prod\.website-files\.com\/5be96251aaba7a84f6ecdf81\/5be96251aaba7a6173ece01a_trent-erwin-570303-unsplash\.jpg\'\)\]{
@@ -881,12 +879,20 @@ video {
   background-image: url("https://assets.website-files.com/5be96251aaba7a7b19ecdf69/5be96251aaba7a58aaecdfba_Header-Pic.jpg");
 }
 
-.bg-\[url\(\'https\:\/\/assets\.website-files\.com\/5be96251aaba7a7b19ecdf69\/5be96251aaba7a58aaecdfba_Header-Pic\.jpg\'\)\]{
-  background-image: url('https://assets.website-files.com/5be96251aaba7a7b19ecdf69/5be96251aaba7a58aaecdfba_Header-Pic.jpg');
+.bg-\[url\(\'https\:\/\/cdn\.prod\.website-files\.com\/536_bar-cafe-caffeine-1002740\.jpg\'\)\]{
+  background-image: url('https://cdn.prod.website-files.com/536_bar-cafe-caffeine-1002740.jpg');
 }
 
-.bg-\[url\(\'https\:\/\/assets\.website-files\.com\/5be96251aaba7a7b19ecdf69\/5be96251aaba7ac1c6ecdfd2_Section\%20Image\%202\.jpg\'\)\]{
-  background-image: url('https://assets.website-files.com/5be96251aaba7a7b19ecdf69/5be96251aaba7ac1c6ecdfd2_Section%20Image%202.jpg');
+.bg-\[url\(\'https\:\/\/cdn\.prod\.website-files\.com\/5be96251aaba7a84f6ecdf81\/5be96251aaba7a5e47ece03c_Blog\%20Pic\%20Head\%208\.jpg\'\)\]{
+  background-image: url('https://cdn.prod.website-files.com/5be96251aaba7a84f6ecdf81/5be96251aaba7a5e47ece03c_Blog%20Pic%20Head%208.jpg');
+}
+
+.bg-\[url\(\'htf81\/5be96251aaba7a4ce6ece036_bar-cafe-caffeine-1002740\.jpg\'\)\]{
+  background-image: url('htf81/5be96251aaba7a4ce6ece036_bar-cafe-caffeine-1002740.jpg');
+}
+
+.bg-\[url\(\'https\:\/\/cdn\.prod\.website-files\.com\/5be96251aaba7a84f6ecdf81\/5be96251aaba7a481bece02f_Blog\%20Pic\%20Head\%201\.jpg\'\)\]{
+  background-image: url('https://cdn.prod.website-files.com/5be96251aaba7a84f6ecdf81/5be96251aaba7a481bece02f_Blog%20Pic%20Head%201.jpg');
 }
 
 .bg-cover{
@@ -940,6 +946,10 @@ video {
 
 .pl-0{
   padding-left: 0px;
+}
+
+.text-left{
+  text-align: left;
 }
 
 .text-center{
@@ -1162,7 +1172,7 @@ video {
 }
 
 .tohc-button:hover{
-  --tw-bg-opacity: 0.9;
+  --tw-bg-opacity: 0.95;
 }
 
 .after\:absolute::after{

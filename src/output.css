@@ -599,19 +599,14 @@ video {
   margin-right: auto;
 }
 
-.my-8{
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
-
 .my-6{
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
 }
 
-.my-7{
-  margin-top: 1.75rem;
-  margin-bottom: 1.75rem;
+.my-8{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .mb-10{
@@ -855,8 +850,16 @@ video {
   background-image: url('https://cdn.prod.website-files.com/5be96251aaba7a84f6ecdf81/5be96251aaba7a223decdff8_ronaldo-arthur-vidal-66241-unsplash.jpg');
 }
 
+.bg-\[url\(\'https\:\/\/cdn\.prod\.website-files\.com\/5be96251aaba7a84f6ecdf81\/5be96251aaba7a481bece02f_Blog\%20Pic\%20Head\%201\.jpg\'\)\]{
+  background-image: url('https://cdn.prod.website-files.com/5be96251aaba7a84f6ecdf81/5be96251aaba7a481bece02f_Blog%20Pic%20Head%201.jpg');
+}
+
 .bg-\[url\(\'https\:\/\/cdn\.prod\.website-files\.com\/5be96251aaba7a84f6ecdf81\/5be96251aaba7a4ce6ece036_bar-cafe-caffeine-1002740\.jpg\'\)\]{
   background-image: url('https://cdn.prod.website-files.com/5be96251aaba7a84f6ecdf81/5be96251aaba7a4ce6ece036_bar-cafe-caffeine-1002740.jpg');
+}
+
+.bg-\[url\(\'https\:\/\/cdn\.prod\.website-files\.com\/5be96251aaba7a84f6ecdf81\/5be96251aaba7a5e47ece03c_Blog\%20Pic\%20Head\%208\.jpg\'\)\]{
+  background-image: url('https://cdn.prod.website-files.com/5be96251aaba7a84f6ecdf81/5be96251aaba7a5e47ece03c_Blog%20Pic%20Head%208.jpg');
 }
 
 .bg-\[url\(\'https\:\/\/cdn\.prod\.website-files\.com\/5be96251aaba7a84f6ecdf81\/5be96251aaba7a6173ece01a_trent-erwin-570303-unsplash\.jpg\'\)\]{
@@ -877,22 +880,6 @@ video {
 
 .bg-slider-img{
   background-image: url("https://assets.website-files.com/5be96251aaba7a7b19ecdf69/5be96251aaba7a58aaecdfba_Header-Pic.jpg");
-}
-
-.bg-\[url\(\'https\:\/\/cdn\.prod\.website-files\.com\/536_bar-cafe-caffeine-1002740\.jpg\'\)\]{
-  background-image: url('https://cdn.prod.website-files.com/536_bar-cafe-caffeine-1002740.jpg');
-}
-
-.bg-\[url\(\'https\:\/\/cdn\.prod\.website-files\.com\/5be96251aaba7a84f6ecdf81\/5be96251aaba7a5e47ece03c_Blog\%20Pic\%20Head\%208\.jpg\'\)\]{
-  background-image: url('https://cdn.prod.website-files.com/5be96251aaba7a84f6ecdf81/5be96251aaba7a5e47ece03c_Blog%20Pic%20Head%208.jpg');
-}
-
-.bg-\[url\(\'htf81\/5be96251aaba7a4ce6ece036_bar-cafe-caffeine-1002740\.jpg\'\)\]{
-  background-image: url('htf81/5be96251aaba7a4ce6ece036_bar-cafe-caffeine-1002740.jpg');
-}
-
-.bg-\[url\(\'https\:\/\/cdn\.prod\.website-files\.com\/5be96251aaba7a84f6ecdf81\/5be96251aaba7a481bece02f_Blog\%20Pic\%20Head\%201\.jpg\'\)\]{
-  background-image: url('https://cdn.prod.website-files.com/5be96251aaba7a84f6ecdf81/5be96251aaba7a481bece02f_Blog%20Pic%20Head%201.jpg');
 }
 
 .bg-cover{
